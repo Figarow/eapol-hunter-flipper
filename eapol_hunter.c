@@ -85,9 +85,8 @@ static const char* menu_items[] = {
     "1. Ordner analysieren",
     "2. Unbrauchbare loeschen",
     "3. Ergebnis anzeigen",
-    "4. Export fuer Hashcat (PC)",
-    "5. Ueber die App",
-    "6. Beenden",
+    "4. Ueber die App",
+    "5. Beenden",
 };
 #define MENU_COUNT (int)(sizeof(menu_items) / sizeof(menu_items[0]))
 
@@ -364,8 +363,11 @@ static void draw_menu(Canvas* canvas, AppState* state) {
         int track_h = list_bottom - list_top + row_h;
         int thumb_h = (track_h * visible_rows) / MENU_COUNT;
         if(thumb_h < 4) thumb_h = 4;
-        int thumb_y =
-            list_top - 8 + (track_h - thumb_h) * scroll_offset / (MENU_COUNT - visible_rows);
+        int scroll_range = MENU_COUNT - visible_rows;
+        int thumb_y = list_top - 8;
+        if(scroll_range > 0) {
+            thumb_y += (track_h - thumb_h) * scroll_offset / scroll_range;
+        }
         canvas_draw_line(canvas, 126, list_top - 8, 126, list_bottom + 1);
         canvas_draw_box(canvas, 125, thumb_y, 3, thumb_h);
     }
@@ -515,13 +517,10 @@ int32_t eapol_hunter_app(void* p) {
                         case 2: /* ergebnis */
                             state->screen = ScreenResult;
                             break;
-                        case 3: /* export hinweis */
+                        case 3: /* about */
                             state->screen = ScreenAbout;
                             break;
-                        case 4: /* about */
-                            state->screen = ScreenAbout;
-                            break;
-                        case 5: /* beenden */
+                        case 4: /* beenden */
                             state->running = false;
                             break;
                         }

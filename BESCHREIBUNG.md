@@ -14,9 +14,8 @@ kopiert und als Hashcat-kompatible Metadatendatei aufbereitet — alles ohne PC,
 | **1. Ordner analysieren** | Durchsucht `/ext/apps_data/marauder/pcaps` rekursiv nach Capture-Dateien, prüft jede per Byte-Pattern-Erkennung auf EAPOL/PMKID-Signaturen, kopiert Treffer in `EAPOL_gefiltert/` und schreibt eine Übersichtsdatei (`alle_handshakes.22000`) |
 | **2. Unbrauchbare löschen** | Entfernt alle Capture-Dateien, die beim letzten Scan keinen Handshake enthielten — räumt die SD-Karte auf |
 | **3. Ergebnis anzeigen** | Zeigt die Statistik des letzten Scans (geprüfte Dateien, Treffer, gelöschte Dateien) |
-| **4. Export für Hashcat (PC)** | Hinweisbildschirm: die exportierte Datei ist bereit für die Weiterverarbeitung mit Hashcat auf dem PC |
-| **5. Über die App** | Erklärung, warum das Passwort-Cracking selbst nicht auf dem Flipper läuft |
-| **6. Beenden** | App schließen |
+| **4. Über die App** | Erklärung, warum das Passwort-Cracking selbst nicht auf dem Flipper läuft |
+| **5. Beenden** | App schließen |
 
 ## Technischer Hintergrund
 
