@@ -45,13 +45,6 @@ Cortex-M4-Prozessor (64 MHz, keine Krypto-Beschleunigung) würde für die PBKDF2
 benötigen. Die App exportiert daher nur die aufbereiteten Metadaten — das eigentliche Cracking
 übernimmt [Hashcat](https://hashcat.net/hashcat/) auf dem PC (Hash-Modus `22000`).
 
-## 🎨 Design
-
-- Eigener Splash-Screen im klassischen Grey-Alien-Stil (glatte ovale Kopfform, große schräge
-  Mandelaugen mit Glanzpunkten)
-- Klar strukturiertes Textmenü mit Fortschrittsbalken während der Analyse
-- Live-Statusanzeigen für Dateizahl, Treffer und aktuell verarbeitete Datei
-
 ## 📦 Installation
 
 ### Fertiges `.fap` herunterladen (empfohlen)
