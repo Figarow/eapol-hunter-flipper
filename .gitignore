@@ -1,0 +1,17 @@
+# Flipper/ufbt build artifacts (behalten wir NUR dist/eapol_hunter.fap als Release-Datei)
+.ufbt/
+build/
+dist/debug/
+*.o
+*.elf
+*.map
+
+# VSCode-Konfiguration (lokal generiert von ufbt)
+.vscode/compile_commands.json
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store

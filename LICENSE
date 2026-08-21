@@ -1,0 +1,50 @@
+MIT License
+
+Copyright (c) 2026 Figarow
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+ZUSÄTZLICHER NUTZUNGSHINWEIS (nicht rechtlich bindender Bestandteil der MIT-Lizenz,
+aber ausdrückliche Bitte der Autoren):
+
+Diese Software wurde ausschließlich zum Zweck der Überprüfung der eigenen
+WLAN-Netzwerksicherheit entwickelt. Sie darf nur verwendet werden:
+
+  - zur Analyse von Handshakes/PMKID-Captures aus EIGENEN Netzwerken, oder
+  - mit AUSDRÜCKLICHER, nachweisbarer Erlaubnis des jeweiligen Netzwerkbetreibers.
+
+Das Erfassen, Speichern oder Auswerten von WPA-Handshakes fremder Netzwerke ohne
+Zustimmung ist in den meisten Rechtsordnungen (u. a. gemäß § 118a österreichisches
+StGB, § 202a-c deutsches StGB, Computer Misuse Act u.ä.) strafbar. Die Autoren
+übernehmen keine Verantwortung für missbräuchliche Nutzung dieser Software.
+
+ADDITIONAL USAGE NOTICE (non-binding addendum to the MIT license, but an
+explicit request from the authors):
+
+This software was built exclusively for auditing the security of your OWN
+WiFi networks. It may only be used:
+
+  - to analyze handshakes/PMKID captures from networks YOU OWN, or
+  - with EXPLICIT, verifiable permission from the respective network operator.
+
+Capturing, storing, or analyzing WPA handshakes of third-party networks without
+consent is a criminal offense in most jurisdictions. The authors accept no
+responsibility for misuse of this software.

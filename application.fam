@@ -1,0 +1,13 @@
+App(
+    appid="eapol_hunter",
+    name="EAPOL Hunter",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="eapol_hunter_app",
+    stack_size=8 * 1024,
+    fap_category="GPIO",
+    fap_version="1.0",
+    fap_icon="eapol_hunter.png",
+    fap_description="Analysiert Marauder-PCAPs auf EAPOL/PMKID, filtert Treffer und exportiert Hashcat-Hashes.",
+    fap_author="RTM",
+    fap_icon_assets="images",
+)
