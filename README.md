@@ -69,6 +69,15 @@ ufbt launch            # baut, installiert und startet direkt auf dem angeschlos
 MIT-Lizenz, siehe [LICENSE](LICENSE) — mit dem oben genannten **Nutzungshinweis**: nur für
 eigene Netzwerke/Geräte oder mit ausdrücklicher Erlaubnis des Netzwerkbetreibers.
 
+## ☕ Spenden
+
+Wenn dir dieses Projekt gefällt, freue ich mich über eine kleine Spende:
+
+**Bitcoin Wallet:**
+```
+zpub6nudRrBTEhpANsnjkfQ4K9KNdqpxjHZGTbFEeEfH9XLSmtaEQrRr4weYXBpUBbAZs2oqxB8JfaxK8MtomhDk9shEByPeUuj7Cvr8VXjR2PQ
+```
+
 ## 🙏 Danksagung
 
 Erstellt für die [WiFi-Marauder](https://github.com/justcallmekoko/ESP32Marauder)-Erweiterung
