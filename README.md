@@ -64,23 +64,6 @@ ufbt                   # baut die .fap
 ufbt launch            # baut, installiert und startet direkt auf dem angeschlossenen Flipper
 ```
 
-Getestet mit Momentum Firmware, Firmware-API **87.1**, Target **7**.
-
-## 🧪 Getestet mit
-
-24 reale WiFi-Marauder-Captures — **5 korrekt erkannte Treffer** (inkl. zweier unabhängig am PC
-per `hcxpcapngtool` verifizierter PMKID-Captures), **keine Fehlklassifizierung** bei reinen
-Beacon-/Raw-Captures ohne Handshake.
-
-## 📁 Repo-Struktur
-
-```
-eapol_hunter.c          Haupt-App (Scan-Logik, GUI, Menü)
-application.fam         Flipper-App-Manifest
-images/                 Icons (Menü-Icon 10x10, Splash-Screen 128x64)
-dist/eapol_hunter.fap   Fertig gebautes Release-Artefakt
-```
-
 ## ⚖️ Lizenz
 
 MIT-Lizenz, siehe [LICENSE](LICENSE) — mit dem oben genannten **Nutzungshinweis**: nur für
