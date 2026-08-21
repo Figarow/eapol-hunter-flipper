@@ -73,9 +73,9 @@ eigene Netzwerke/Geräte oder mit ausdrücklicher Erlaubnis des Netzwerkbetreibe
 
 Wenn dir dieses Projekt gefällt, freue ich mich über eine kleine Spende:
 
-**Bitcoin Wallet:**
+**Bitcoin-Adresse:**
 ```
-zpub6nudRrBTEhpANsnjkfQ4K9KNdqpxjHZGTbFEeEfH9XLSmtaEQrRr4weYXBpUBbAZs2oqxB8JfaxK8MtomhDk9shEByPeUuj7Cvr8VXjR2PQ
+bc1qxgg8s2npj6f3mp7hux5lc33gwleljwu4yp78u2
 ```
 
 ## 🙏 Danksagung
