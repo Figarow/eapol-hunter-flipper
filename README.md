@@ -75,3 +75,11 @@ Erstellt für die [WiFi-Marauder](https://github.com/justcallmekoko/ESP32Maraude
 auf [Flipper Zero](https://flipperzero.one/) / [Momentum Firmware](https://momentum-fw.dev/).
 Passwort-Cracking-Workflow am PC nutzt [hcxtools](https://github.com/ZerBea/hcxtools) und
 [Hashcat](https://hashcat.net/hashcat/).
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/github/downloads/Figarow/eapol-hunter-flipper/total.svg?label=Downloads" alt="Downloads" />
+  <img src="https://komarev.com/ghpvc/?username=Figarow&repo=eapol-hunter-flipper&label=Besucher&color=blueviolet" alt="Besucherzähler" />
+</p>
+
