@@ -31,18 +31,6 @@ auf einer normalen PC-CPU. Ein rockyou.txt-Wörterbuchlauf (14,3 Mio. Einträge)
 8 Minuten dauert, würde auf dem Flipper Wochen bis Monate benötigen. Die App exportiert daher nur
 die aufbereiteten Metadaten — das eigentliche Cracking übernimmt Hashcat auf dem PC.
 
-## Design
-
-- Eigener Splash-Screen im Grey-Alien-Stil (glatte ovale Kopfform, große schräge Mandelaugen)
-- Klar strukturiertes Textmenü mit Fortschrittsbalken während der Analyse
-- Statusanzeigen für Dateizahl, Treffer und aktuell verarbeitete Datei
-
 ## Installationsort
 
 `/ext/apps/GPIO/eapol_hunter.fap`
-
-## Getestet mit
-
-24 reale WiFi-Marauder-Captures — 5 korrekt erkannte Treffer (inkl. zweier unabhängig am PC
-per `hcxpcapngtool` verifizierter PMKID-Captures), keine Fehlklassifizierung bei reinen
-Beacon-/Raw-Captures ohne Handshake.
